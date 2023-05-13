@@ -35,7 +35,7 @@
           </button>
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+            <ul class="navbar-nav ml-auto flex-nowrap" >
 
               {%- for page in site.pages -%}
                 {% if page.permalink == '/' %}
@@ -52,15 +52,6 @@
                 </a>
               </li>
               {% if site.blog_nav_title %}
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -96,12 +87,26 @@
               {% endfor -%}
               {%- if site.enable_darkmode %}
 
+
+
+              <!-- Blog
+              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
+                  {%- if page.url contains 'blog' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              {%- endif %} -->
+
+
+
               <!-- Toogle theme mode -->
-              <li class="toggle-container">
+              <!-- <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
-                </button>
+                </button> -->
               </li>
               {%- endif %}
             </ul>
