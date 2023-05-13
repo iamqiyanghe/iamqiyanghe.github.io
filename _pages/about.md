@@ -1,26 +1,40 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: Qiyang He.jpg
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p style="text-align:center;"><a href='https://iamqiyanghe.github.io/files/CV_VERSION_20230411.pdf'>Curriculum Vitae</a></p>
+    <p style="text-align:center;"><a href='https://scholar.google.com/citations?user=Xx3WDYAAAAAJ&hl=en&oi=sra'>Google Scholar</a></p>
+    <p style="text-align:center;"><a href='https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4945558'>SSRN Author Page</a></p>
+    <p style="text-align:center;"><a href='https://www.linkedin.com/in/qiyang-he-b30a2b17b/'>LinkedIn</a></p>
+
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<br />
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p style="text-align:justify;">Welcome to my website!</p>
+
+<p style="text-align:justify;">I am a third-year PhD candidate in finance at <a href='https://www.sydney.edu.au/business/our-research/research-areas/finance.html'>The University of Sydney Business School</a>. My research focuses on climate finance, ESG, labor finance, and corporate innovation. I am specialized in textual analysis with modern machine learning techniques. For example, in one of my working papers, I downloaded and parsed over 150 thousand <a href='https://www.investopedia.com/terms/s/sec-form-def-14a.asp'>corporate proxy statements</a> (DEF14A) from the <a href='https://www.sec.gov/'>SEC</a>, and applied Word2vec model to detect the use of corporate environmental contracting. In the other working paper, I leveraged the large language model, FinBERT, to measure a firm's labor-shortage exposure from earnings conference call transcripts.</p>
+
+<p style="text-align:justify;">I will continue to explore textual analysis in finance in the future.</p>
+<p style="text-align:justify;">Any comment/idea is welcome :blush:</p>
+
+
+[Email:](mailto:qiyang.he@sydney.edu.au) qiyang.he@sydney.edu.au
+
+
+
+
