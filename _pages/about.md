@@ -10,7 +10,7 @@ profile:
   image: Qiyang He.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p style="text-align:center;"><a href='https://iamqiyanghe.github.io/assets/pdf/qiyanghe_05152023.pdf'>Curriculum Vitae</a></p>
+    <p style="text-align:center;"><a href='https://iamqiyanghe.github.io/assets/pdf/Qiyang He_CV.pdf'>Curriculum Vitae</a></p>
     <p style="text-align:center;"><a href='https://scholar.google.com/citations?user=Xx3WDYAAAAAJ&hl=en&oi=sra'>Google Scholar</a></p>
     <p style="text-align:center;"><a href='https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4945558'>SSRN Author Page</a></p>
     <p style="text-align:center;"><a href='https://www.linkedin.com/in/qiyang-he-b30a2b17b/'>LinkedIn</a></p>
