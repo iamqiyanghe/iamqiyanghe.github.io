@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-04-05 08:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I am happy to share that my paper "Firm-Level Labor-Shortage Exposure" <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410126'> (with Jarrad Harford and Buhui Qiu) has been accepted for presentation at FIRS 2024 and CICF 2024 :).
