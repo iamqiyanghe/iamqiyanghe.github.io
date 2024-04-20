@@ -1,20 +1,22 @@
 ---
 layout: page
 permalink: /research/
-title: Research
+title: 
 # description: 
 # years: blank
 nav: true
 nav_order: 1
 ---
 
-<p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 24px;"><strong>Published and Accepted Papers</strong></span></p> 
+<p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 24px;"><strong>Published and Accepted Papers</strong></span></p>
 
-1. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong><a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4798681'>The Effect of Social Media on Corporate Innovation: Evidence from Seeking Alpha Coverage</a></strong>, <b><i>Management Science</i></b>, <i>Forthcoming</i></span></p>
+<br> element
+
+1. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong><a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4798681'>The Effect of Social Media on Corporate Innovation: Evidence from Seeking Alpha Coverage</a></strong>, <strong><i>Management Science</strong></b>, <i>Forthcoming</i></span></p>
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Henry Leung, Buhui Qiu, and Zhou Zhou</strong></span></p>
 - <p style="text-align:justify;margin-bottom: 0.1em"><strong>Short summary:</strong> A coverage promotes corporate innovation by disseminating innovation-related information about the covered firm to external investors, thereby alleviating the firm’s financial constraints.</p> 
 
-<p></p>
+<br> element
 
 <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 24px;"><strong>Working Papers</strong></span></p> 
 
