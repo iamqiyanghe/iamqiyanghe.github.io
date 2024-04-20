@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: 
+title: Research
 # description: 
 # years: blank
 nav: true
