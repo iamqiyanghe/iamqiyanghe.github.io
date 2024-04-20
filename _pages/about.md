@@ -28,9 +28,8 @@ social: false  # includes social icons at the bottom of the page
 
 <p style="text-align:justify;">Welcome to my website!</p>
 
-<p style="text-align:justify;">I am a fourth year PhD candidate in finance at <a href='https://www.sydney.edu.au/business/our-research/research-areas/finance.html'>The University of Sydney Business School</a>. My research focuses on climate finance, labor finance, and corporate innovation. I am specialized in textual analysis with modern machine learning techniques. For example, in one of my working papers, I downloaded and parsed over 150 thousand <a href='https://www.investopedia.com/terms/s/sec-form-def-14a.asp'>corporate proxy statements</a> (DEF14A) from the <a href='https://www.sec.gov/'>SEC</a>, and applied Word2vec model to detect the adoption of environmental contracting by U.S firms. In the other working paper, I leveraged the large language model, FinBERT, to develop a firm-level measure of labor-shortage exposure using earnings conference call transcripts. I will be on the job market later 2024.</p>
+<p style="text-align:justify;">I am a fourth year PhD candidate in finance at <a href='https://www.sydney.edu.au/business/our-research/research-areas/finance.html'>The University of Sydney Business School</a>. My research lies in a broad topic of corporation finance, with a focus on innovation, climate change, labor market, and machine learning and textual analysis. I am specialized in textual analysis with modern machine learning techniques. I will be on the job market later 2024.</p>
 
-<p style="text-align:justify;">I will continue to explore textual analysis in finance in the future.</p>
 <p style="text-align:justify;">Any comment/idea is welcome :blush:</p>
 
 
