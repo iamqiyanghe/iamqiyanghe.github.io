@@ -19,3 +19,6 @@ nav_order: 4
  > <strong>2023</strong>:
  - <small>FINC3011 International Financial Management</small> 
  - <small>FINC6013 International Business Finance</small>
+
+  > <strong>2024</strong>:
+ - <small>FINC6013 International Business Finance</small>
