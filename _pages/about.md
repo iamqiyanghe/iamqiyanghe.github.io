@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
 
 <p style="text-align:justify;">Welcome to my website!</p>
 
-<p style="text-align:justify;">I am a fourth year PhD candidate in finance at <a href='https://www.sydney.edu.au/business/our-research/research-areas/finance.html'>The University of Sydney Business School</a>. My research lies on a broad area of corporation finance, with a focus on innovation, climate change, labor market, and machine learning and textual analysis. I am also specialized in textual analysis with modern machine learning techniques. I will be on the job market later 2024.</p>
+<p style="text-align:justify;">I am a fourth year PhD candidate in finance at <a href='https://www.sydney.edu.au/business/our-research/research-areas/finance.html'>The University of Sydney Business School</a>. My research lies on a broad area of corporation finance, with a focus on innovation, climate change, labor market, and machine learning and textual analysis. I will be on the job market later 2024.</p>
 
 <p style="text-align:justify;">Any comment/idea is welcome :blush:</p>
 
