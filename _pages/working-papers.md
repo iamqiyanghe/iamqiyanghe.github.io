@@ -9,6 +9,8 @@ nav_order: 1
 ---
 
 <br>
+<p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 24px;"><strong>Published and Accepted Papers</strong></span></p>
+
 
 1. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong><a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4798681'>The Effect of Social Media on Corporate Innovation: Evidence from Seeking Alpha Coverage</a></strong>, <strong><i>Management Science</i></strong>, <i>Forthcoming</i></span></p>
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Henry Leung, Buhui Qiu, and Zhou Zhou</strong></span></p>
@@ -16,12 +18,12 @@ nav_order: 1
 
 
 
-
+<br>
 
 
 <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 24px;"><strong>Working Papers</strong></span></p> 
 
-<br>
+
 
 1. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong><a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410126'>Firm-Level Labor-Shortage Exposure</a></strong></span></p>
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Jarrad Harford and Buhui Qiu</strong></span></p>
