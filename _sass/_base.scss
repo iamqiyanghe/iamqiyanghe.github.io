@@ -5,7 +5,7 @@
 
  /* Add this new section for the news spacing */
 .news-section {
-  margin-top: 20px; /* Adjust the value as needed */
+  margin-top: 40px; /* Adjust the value as needed */
 }
 
 // Typography
@@ -22,6 +22,7 @@ div,
 li,
 span,
 strong {
+  font-size: 0.8rem; /* Change this value to adjust the base font size */
   color: var(--global-text-color);
   font-family: 'Lora', serif;
 }
@@ -546,14 +547,14 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
   }
 
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 
     span {
       font-size: 1.5rem;
