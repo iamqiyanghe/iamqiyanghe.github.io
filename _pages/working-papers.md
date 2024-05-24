@@ -32,24 +32,26 @@ nav_order: 1
 
 
 
-2. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Climate Regulatory Risks and Executive Compensation: Evidence from U.S. State-level SCAP Finalization</strong></span></p>
-   <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Justin Hung Nguyen, Buhui Qiu, and Bohui Zhang</strong></span></p>
-- <p style="text-align:justify;margin-bottom: 3em"><strong>Presentations:</strong> FMCG (2023); China Journal of Accounting Studies Conference 2023*</p>
-
-
-3. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Greenwashing</strong></span></p>
+2. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px"><strong>Greenwashing</strong></span></p>
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Ben Marshall, Justin Hung Nguyen, Nhut Nguyen, Buhui Qiu, and Nuttawat Visaltanachoti</strong></span></p>
 - <p style="text-align:justify;margin-bottom: 3em"><strong>Presentations:</strong> Global Research Alliance for Sustainable Finance and Investment (GRASFI) 2024 (scheduled), FMA Asia 2024 (scheduled), Massey University*, Monash University*, University of Sydney*, Victoria University Wellington*.</p>
 
 
 
-4. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Environmental Enforcement Actions and Corporate Green Innovation</strong></span></p>
+3. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Environmental Enforcement Actions and Corporate Green Innovation</strong></span></p>
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Buhui Qiu</strong></span></p>
 - <p style="text-align:justify;margin-bottom: 3em"><strong>Presentations:</strong> Financial Research Network (FIRN) PhD Symposium 2022; University of Sydney</p>
 
 
-5. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Cap-and-Trade Policy and Energy-related Innovation: Evidence from the U.S. Regional Greenhouse Gas Initiative (RGGI) Agreement</strong></span></p>
+
+4. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Cap-and-Trade Policy and Energy-related Innovation: Evidence from the U.S. Regional Greenhouse Gas Initiative (RGGI) Agreement</strong></span></p>
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Buhui Qiu and Haekwon Lee</strong></span></p>
 - <p style="text-align:justify;margin-bottom: 3em"><strong>Presentations:</strong> FMA 2022, University of Sydney Brown Bag Seminar</p>
+
+
+
+5. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px"><strong>Climate Regulatory Risks and Executive Compensation: Evidence from U.S. State-level SCAP Finalization</strong></span></p>
+   <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Justin Hung Nguyen, Buhui Qiu, and Bohui Zhang</strong></span></p>
+- <p style="text-align:justify;margin-bottom: 3em"><strong>Presentations:</strong> FMCG (2023); China Journal of Accounting Studies Conference 2023*</p>
 
 <span style="font-size: 14px;">*: Presented by co-authors</span>
