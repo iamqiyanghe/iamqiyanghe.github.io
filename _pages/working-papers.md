@@ -31,6 +31,7 @@ nav_order: 1
 - <p style="text-align:justify;"><strong>Presentations:</strong> FIRS 2024 (scheduled), CICF 2024 (scheduled), NFA 2024 (scheduled), Australasian Finance and Banking Conference (AFBC) 2023, Sydney Banking and Financial Stability Conference (SBFC) 2023, Banking and Finance Forum at Macquarie University*, Chinese University of Hong Kong*, Florida International University*, Florida State University*, Loughborough University*, University of Hawaii*, University of Sussex*, University of Sydney, Victoria University of Wellington*</p>
 
 
+
 2. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Climate Regulatory Risks and Executive Compensation: Evidence from U.S. State-level SCAP Finalization</strong></span></p>
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Justin Hung Nguyen, Buhui Qiu, and Bohui Zhang</strong></span></p>
 - <p style="text-align:justify;margin-bottom: 3em"><strong>Presentations:</strong> FMCG (2023); China Journal of Accounting Studies Conference 2023*</p>
@@ -39,7 +40,7 @@ nav_order: 1
 3. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Greenwashing</strong></span></p>
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Ben Marshall, Justin Hung Nguyen, Nhut Nguyen, Buhui Qiu, and Nuttawat Visaltanachoti</strong></span></p>
 - <p style="text-align:justify;margin-bottom: 3em"><strong>Presentations:</strong> Global Research Alliance for Sustainable Finance and Investment (GRASFI) 2024 (scheduled), FMA Asia 2024 (scheduled), Massey University*, Monash University*, University of Sydney*, Victoria University Wellington*.</p>
-<span style="font-size: 14px;">*: Presented by co-authors</span>
+
 
 
 4. <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 20px;"><strong>Environmental Enforcement Actions and Corporate Green Innovation</strong></span></p>
@@ -51,5 +52,4 @@ nav_order: 1
    <p style="text-align:justify;margin-bottom: 0.1em"><span style="font-size: 16px;"><strong>With Buhui Qiu and Haekwon Lee</strong></span></p>
 - <p style="text-align:justify;margin-bottom: 3em"><strong>Presentations:</strong> FMA 2022, University of Sydney Brown Bag Seminar</p>
 
-
-
+<span style="font-size: 14px;">*: Presented by co-authors</span>
