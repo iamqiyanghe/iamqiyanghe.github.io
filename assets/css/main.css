@@ -100,6 +100,11 @@ body.sticky-bottom-footer {
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+/* Add this new section for the news spacing */
+.news-section {
+  margin-top: 20px; /* Adjust the value as needed */
+}
+
 p,
 h1,
 h2,
