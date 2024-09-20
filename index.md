@@ -1,8 +1,5 @@
 <head>
   <meta name="google-site-verification" content="Tbo5nQsNZSh0M7WHCdn5DYN7I2hWkEe3qLi3g2XkrDk" />
-  <style>
-    /* Your existing styles here */
-  </style>
 </head>
 
 
