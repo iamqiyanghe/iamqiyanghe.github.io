@@ -1,6 +1,8 @@
 <head>
   <meta name="google-site-verification" content="Tbo5nQsNZSh0M7WHCdn5DYN7I2hWkEe3qLi3g2XkrDk" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 
 
 <br> <br>
@@ -70,14 +72,14 @@ SSRN Author Page: [Click Here](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm
 
 1. [Firm-Level Labor-Shortage Exposure](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410126)
     - With Jarrad Harford and Buhui Qiu
-    - **Selected Presentations:** AFA 2025 Poster (scheduled), FIRS 2024, NFA 2024*, CICF 2024, Australasian Finance and Banking Conference (AFBC) 2023, Sydney Banking and Financial Stability Conference (SBFC) 2023, Banking and Finance Forum at Macquarie University*
+    - **Selected Presentations:** AFA 2025 Poster (scheduled), FIRS 2024, NFA 2024^, CICF 2024, Australasian Finance and Banking Conference (AFBC) 2023, Sydney Banking and Financial Stability Conference (SBFC) 2023, Banking and Finance Forum at Macquarie University^
     - **Short Summary:** We use a large language model to develop a novel measure of labor-shortage exposure at the firm level. Firms with labor-shortage exposures experience lower earnings call CARs, future stock returns and operating performance. Firms respond to labor shortages by substituting labor with capital and R&D investments, and by producing more production-process patents.
 
 <br>
 
 2. [Greenwashing: Measurement and Implications](https://iamqiyanghe.github.io)
     - With Ben Marshall, Hung Nguyen, Nhut Nguyen, Buhui Qiu and Nuttawat Visaltanachoti
-    - **Selected Presentations:** AEA 2025 Poster (scheduled), SFS Cavalcade Asia-Pacific 2024 (scheduled), UNPRI Academic Network Conference 2024 (scheduled), GRASFI 2024, FMA Asia 2024
+    - **Selected Presentations:** AEA 2025 Poster (scheduled), SFS Cavalcade Asia-Pacific 2024 (scheduled), UNPRI Academic Network Conference 2024 (scheduled), GRASFI 2024, FMA Asia 2024^
     - **Short Summary:** We match corporate green talk identified by a large language model with actual environmental incidents from RepRisk to construct a comprehensive measure of firm-level greenwashing intensity. We find that managers engage in greenwashing to increase their job security and compensation, at the expense of shareholders and other stakeholders.
 
 
@@ -100,4 +102,4 @@ SSRN Author Page: [Click Here](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm
     - **Selected Presentations:** FMA 2022
 
 <br>
-*: Presented by co-authors
+^: Presented by co-authors
