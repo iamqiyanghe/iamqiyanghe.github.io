@@ -6,17 +6,6 @@
 </head>
 
 
-<style>
-  body {
-    font-family: Helvetica,Arial, sans-serif;
-    color: #17202a;
-    font-size: 11pt;
-    background-color: #fdfefe;
-    line-height: 1.5;
-    text-align: justify;
-  }
-</style>
-
 <br> <br>
 
 <hr style="height: 1px; background-color: black; border: none;">
