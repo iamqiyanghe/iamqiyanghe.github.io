@@ -2,7 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   color: #17202a;
   font-size: 12pt;
-  background-color: #d3d3d3;
+  background-color: #f4f4f4;
   line-height: 1.5;
   text-align: justify;
 }
@@ -11,5 +11,5 @@ body {
   max-width: 1000px; /* Adjust the max width as needed */
   margin: 0 auto; /* Center the container */
   padding: 60px; /* Add some padding inside the container */
-  background-color: #d3d3d3; /* Optional: background for contrast */
+  background-color: #f4f4f4; /* Optional: background for contrast */
 }
