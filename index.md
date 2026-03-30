@@ -1,0 +1,133 @@
+<!-- <head>
+  <meta name="google-site-verification" content="Tbo5nQsNZSh0M7WHCdn5DYN7I2hWkEe3qLi3g2XkrDk" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTJSG1NQN3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-FTJSG1NQN3');
+</script>
+
+</head> -->
+
+<br>
+
+<br>
+
+<div class="container">
+
+
+[HOME](#top) | 
+[PUBLICATIONS](#publications) | 
+[WORKING PAPERS](#working-papers) |
+[TEACHING](#teaching) |
+[CV](https://iamqiyanghe.github.io/assets/Qiyang_He_CV.pdf) | 
+
+<hr>
+
+<br>
+
+<img align="right" width="250" height="250" src="https://iamqiyanghe.github.io/assets/Qiyang He.jpg" style="margin-left: 25px;">
+
+
+
+<span style="font-family:Helvetica; font-size:2.5em;"> **Qiyang He**
+
+Welcome to my website 👋  
+
+
+I am a Lecturer (Assistant Professor) in Finance at Deakin Business School. My research lies in a broad area of empirical corporate finance, with focus on innovation, climate change, labor market, machine learning, and textual analysis.  
+
+| [Email](mailto:qiyang.he@deakin.edu.au) | [Curriculum Vitae](https://iamqiyanghe.github.io/assets/Qiyang_He_CV.pdf) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4945558) | [Google Scholar](https://scholar.google.com/citations?user=Xx3WDYAAAAAJ&hl=en) | [Faculty Profile](https://experts.deakin.edu.au/70360-qiyang-he) |
+
+
+<br>
+
+
+<!-- <hr style="height: 0.8px; background-color: black; border: none;"> -->
+
+
+
+<br>
+
+
+## Publications
+
+<br>
+
+1. [**The Effect of Social Media on Corporate Innovation: Evidence from Seeking Alpha Coverage**](https://pubsonline.informs.org/doi/10.1287/mnsc.2023.00995)
+    - With [Henry Leung](https://profiles.sydney.edu.au/henry.leung), [Buhui Qiu](https://sites.google.com/site/buhuiqiu/) and Zhou Zhou
+    - ***Management Science***, 2025, 71(7), 5441-5476
+    - | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4798681) | [Replication Package](https://services.informs.org/dataset/mnsc/download.php?doi=mnsc.2023.00995) |
+
+<br>
+
+2. [**Environmental Enforcement Actions and Corporate Green Innovation**](https://pubsonline.informs.org/doi/10.1287/mnsc.2023.00995)  
+    - With [Buhui Qiu](https://sites.google.com/site/buhuiqiu/)
+    - ***Journal of Corporate Finance***, 2025, 91, 102711
+    - | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4798681) | [EPA Formal Enforcement Case-GVKEY Linking Table](https://www.dropbox.com/scl/fo/ue3qegl3sf16ld35a30ab/AKSkXsaJ36miAI8V_wJ78YI?rlkey=wa97h460gvbuij2uoy1e7zdia&st=bzznsxkb&dl=0) |
+
+<br>
+
+
+
+## Working Papers
+
+<br>
+
+1. [**Firm-Level Labor-Shortage Exposure**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410126) 
+    - With [Jarrad Harford](https://foster.uw.edu/faculty-research/directory/jarrad-harford/) and [Buhui Qiu](https://sites.google.com/site/buhuiqiu/) 
+    - ***The Review of Financial Studies***, Conditionally Accepted
+    - Selected Presentations: AFA 2025 Poster, FIRS 2024, NFA 2024^, CICF 2024, Australasian Finance and Banking Conference (AFBC) 2023, Sydney Banking and Financial Stability Conference (SBFC) 2023, Banking and Finance Forum at Macquarie University^
+
+<br>
+
+2. [**The Value of Corporate Patent Utilization**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5107971)
+    - With [Jarrad Harford](https://foster.uw.edu/faculty-research/directory/jarrad-harford/) and [Buhui Qiu](https://sites.google.com/site/buhuiqiu/)
+    - Selected Presentations: AFA Annual Meeting 2026, CUHK-RAPS-RCFS Conference 2025, FIRN 2025^, EFA Annual Meeting 2025^, Monash Winter Finance Conference 2025
+
+<br>
+
+
+3. [**Greenwashing: Measurement and Implications**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4981856) 
+    - With [Ben Marshall](https://sites.google.com/view/ben-marshall), [Hung Nguyen](https://www.ecu.edu.au/schools/business-and-law/faculty/profiles/senior-lecturer/dr-justin-nguyen), [Nhut Nguyen](https://academics.aut.ac.nz/nhut.nguyen), [Buhui Qiu](https://sites.google.com/site/buhuiqiu/) and [Nuttawat Visaltanachoti](https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=413830)
+    - Selected Presentations: Canadian Sustainable Finance Network Conference 2025^, AEA 2025 Poster, SFS Cavalcade Asia-Pacific 2024^, UNPRI Academic Network Conference 2024^, GRASFI 2024, FMA Asia 2024^
+
+<br>
+
+
+4. **Climate Regulatory Risks and Executive Compensation: Evidence from U.S. State-level SCAP Finalization** 
+    - With [Hung Nguyen](https://www.ecu.edu.au/schools/business-and-law/faculty/profiles/senior-lecturer/dr-justin-nguyen), [Buhui Qiu](https://sites.google.com/site/buhuiqiu/) and [Bohui Zhang](https://sites.google.com/site/bohuizhang/)
+    - Selected Presentations: FMCG 2023, China Journal of Accounting Studies Conference 2023^
+
+<br>
+
+5. **Cap-and-Trade Policy and Energy-related Innovation: Evidence from the U.S. Regional Greenhouse Gas Initiative (RGGI) Agreement** 
+    - With [Haekwon Lee](https://profiles.sydney.edu.au/haekwon.lee) and [Buhui Qiu](https://sites.google.com/site/buhuiqiu/)
+    - Selected Presentations: FMA 2022
+
+^: Presented by co-authors
+
+<br>
+
+
+## Teaching
+
+### Deakin University
+- **Lecture**
+    - MAF707 Investments and Portfolio Management (2026S2, scheduled)
+
+- **Seminars**
+    - MAF101 Fundamentals of Finance (2025S2)
+    - MAF203 Business Finance (2025S2)
+
+### University of Sydney
+- **Tutorials**
+    - FINC2011 Corporate Finance I (2025S1, 2024S2)
+    - FINC2012 Corporate Finance II (2022S2)
+    - FINC3011 International Financial Management (2023S1)
+    - FINC6013 International Business Finance (2022S1 - 2025S1)
+</div>
