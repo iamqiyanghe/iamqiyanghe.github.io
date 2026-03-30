@@ -1,22 +1,3 @@
-<head>
-  <meta name="google-site-verification" content="Tbo5nQsNZSh0M7WHCdn5DYN7I2hWkEe3qLi3g2XkrDk" />
-  <link rel="stylesheet" type="text/css" href="styles.css">
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTJSG1NQN3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-FTJSG1NQN3');
-</script>
-
-
-</head>
-
-<br>
-
-<br>
 
 <div class="container">
 
