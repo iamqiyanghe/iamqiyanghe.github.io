@@ -1,0 +1,142 @@
+/* =============================================
+   Base
+   ============================================= */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #17202a;
+  font-size: 11pt;
+  background-color: #ffffff;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  background-color: #ffffff;
+}
+
+/* =============================================
+   Navigation
+   ============================================= */
+nav {
+  margin-bottom: 10px;
+  font-size: 10.5pt;
+  letter-spacing: 0.03em;
+}
+
+nav a {
+  color: #0066a1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* =============================================
+   Horizontal Rule
+   ============================================= */
+hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 10px 0 24px 0;
+}
+
+/* =============================================
+   Headings
+   ============================================= */
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 6px;
+  line-height: 1.2;
+  border-left: 4px solid #cccccc;
+  padding-left: 12px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 4px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  color: #17202a;
+}
+
+/* =============================================
+   Paragraphs
+   ============================================= */
+p {
+  margin: 4px 0;
+}
+
+li p {
+  margin: 1px 0;
+}
+
+/* =============================================
+   Links
+   ============================================= */
+a {
+  color: #006ab1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =============================================
+   Lists
+   ============================================= */
+ul, ol {
+  padding-left: 24px;
+  margin: 4px 0;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+ol li {
+  margin-bottom: 2px;
+}
+
+/* =============================================
+   Profile image
+   ============================================= */
+img[align="right"] {
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+/* =============================================
+   Responsive
+   ============================================= */
+@media (max-width: 640px) {
+  .container {
+    padding: 24px 20px;
+  }
+
+  img[align="right"] {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 180px !important;
+    height: 180px !important;
+  }
+}
