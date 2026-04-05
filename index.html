@@ -35,6 +35,108 @@
 .contains-task-list .contains-task-list {
     padding-left: 20px;
 } 
+/* From extension marp-team.marp-vscode */
+#__marp-vscode {
+  all: revert;
+}
+
+/* Override VS Code default CSS rules reverting to initial
+   https://github.com/microsoft/vscode/blob/master/src/vs/workbench/contrib/webview/browser/pre/main.js#L53 */
+html:has(body.marp-vscode) {
+  padding: 0;
+}
+
+body.marp-vscode {
+  padding: 0;
+}
+
+body.marp-vscode img {
+  max-width: unset;
+  max-height: unset;
+}
+
+body.marp-vscode a,
+body.marp-vscode a:hover,
+body.marp-vscode code {
+  color: unset;
+}
+
+body.marp-vscode blockquote {
+  background: unset;
+  border-color: unset;
+}
+
+@media screen {
+  body.marp-vscode {
+    overflow-y: scroll;
+
+    /* stylelint-disable-next-line selector-class-pattern */
+    &.showEditorSelection {
+      --marp-vscode-highlight-color: rgb(255 255 255 / 40%);
+
+      &.vscode-light {
+        --marp-vscode-highlight-color: rgb(0 0 0 / 15%);
+      }
+
+      &.vscode-high-contrast {
+        --marp-vscode-highlight-color: rgb(255 160 0 / 70%);
+      }
+    }
+  }
+
+  #__marp-vscode [data-marp-vscode-slide-wrapper] {
+    margin: 20px;
+    position: relative;
+
+    &.code-active-line,
+    &:has(.code-active-line) {
+      &::before {
+        position: absolute;
+        content: '';
+        inset: -7px;
+        border: 3px solid var(--marp-vscode-highlight-color, transparent);
+        pointer-events: none;
+      }
+    }
+  }
+
+  #__marp-vscode svg[data-marpit-svg] {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 25%);
+    display: block;
+    margin: 0;
+  }
+
+  /* Based on https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+  #code-csp-warning {
+    background-color: #444;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 25%);
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 16px;
+    padding: 6px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    overflow-wrap: break-word;
+  }
+
+  #code-csp-warning:hover {
+    text-decoration: none;
+    background-color: #007acc;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 25%);
+  }
+}
+
+@media print {
+  body.marp-vscode #code-csp-warning {
+    display: none;
+  }
+}
+
 </style>
             
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
@@ -189,6 +291,16 @@
 <h2 id="publications">Publications</h2>
 <br>
 <ol>
+<li><strong>Firm-Level Labor-Shortage Exposure</strong>
+<ul>
+<li>With <a href="https://foster.uw.edu/faculty-research/directory/jarrad-harford/">Jarrad Harford</a> and <a href="https://sites.google.com/site/buhuiqiu/">Buhui Qiu</a></li>
+<li><em><strong>The Review of Financial Studies</strong></em>, Accepted</li>
+<li>| <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410126">SSRN</a> | <a href="https://iamqiyanghe.github.io/assets/Firm_Level_Labor_Shortage_Exposure_Online_Appendix.pdf">Online Appendix</a> | <a href="https://doi.org/10.7910/DVN/YMSVMX">Replication Package</a> | <a href="https://www.dropbox.com/scl/fo/z9cqkr2vg6iffa0n16tic/ALeAcmYFJUr50XCKEXsIj5k?rlkey=d65a4ajmihbf5dwxb5yrlal98&amp;st=z77gzdwk&amp;dl=0">Labor-Shortage Data</a> | <a href="https://www.dropbox.com/scl/fo/x0ek5ldqt2sy0oz8p4aku/ALtaMoyjYhvfFbQUbuxNkgk?rlkey=mlaakmjncsmm6ust2z0wdyol1&amp;st=el4izi6q&amp;dl=0">FinBert Model and Application</a> |</li>
+</ul>
+</li>
+</ol>
+<br>
+<ol>
 <li><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2023.00995"><strong>The Effect of Social Media on Corporate Innovation: Evidence from Seeking Alpha Coverage</strong></a>
 <ul>
 <li>With <a href="https://profiles.sydney.edu.au/henry.leung">Henry Leung</a>, <a href="https://sites.google.com/site/buhuiqiu/">Buhui Qiu</a> and Zhou Zhou</li>
@@ -198,12 +310,12 @@
 </li>
 </ol>
 <br>
-<ol start="2">
+<ol start="3">
 <li><a href="https://www.sciencedirect.com/science/article/pii/S0929119924001731"><strong>Environmental Enforcement Actions and Corporate Green Innovation</strong></a>
 <ul>
 <li>With <a href="https://sites.google.com/site/buhuiqiu/">Buhui Qiu</a></li>
 <li><em><strong>Journal of Corporate Finance</strong></em>, 2025, 91, 102711</li>
-<li>| <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4798681">SSRN</a> | <a href="https://www.dropbox.com/scl/fo/ue3qegl3sf16ld35a30ab/AKSkXsaJ36miAI8V_wJ78YI?rlkey=wa97h460gvbuij2uoy1e7zdia&amp;st=bzznsxkb&amp;dl=0">EPA Formal Enforcement Case-GVKEY Linking Table</a> |</li>
+<li>| <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5032735">SSRN</a> | <a href="https://www.dropbox.com/scl/fo/ue3qegl3sf16ld35a30ab/AKSkXsaJ36miAI8V_wJ78YI?rlkey=wa97h460gvbuij2uoy1e7zdia&amp;st=bzznsxkb&amp;dl=0">EPA Formal Enforcement Case-GVKEY Linking Table</a> |</li>
 </ul>
 </li>
 </ol>
@@ -211,16 +323,6 @@
 <h2 id="working-papers">Working Papers</h2>
 <br>
 <ol>
-<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410126"><strong>Firm-Level Labor-Shortage Exposure</strong></a>
-<ul>
-<li>With <a href="https://foster.uw.edu/faculty-research/directory/jarrad-harford/">Jarrad Harford</a> and <a href="https://sites.google.com/site/buhuiqiu/">Buhui Qiu</a></li>
-<li><em><strong>The Review of Financial Studies</strong></em>, Conditionally Accepted</li>
-<li>Selected Presentations: AFA 2025 Poster, FIRS 2024, NFA 2024^, CICF 2024, Australasian Finance and Banking Conference (AFBC) 2023, Sydney Banking and Financial Stability Conference (SBFC) 2023, Banking and Finance Forum at Macquarie University^</li>
-</ul>
-</li>
-</ol>
-<br>
-<ol start="2">
 <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5107971"><strong>The Value of Corporate Patent Utilization</strong></a>
 <ul>
 <li>With <a href="https://foster.uw.edu/faculty-research/directory/jarrad-harford/">Jarrad Harford</a> and <a href="https://sites.google.com/site/buhuiqiu/">Buhui Qiu</a></li>
@@ -229,7 +331,7 @@
 </li>
 </ol>
 <br>
-<ol start="3">
+<ol start="2">
 <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4981856"><strong>Greenwashing: Measurement and Implications</strong></a>
 <ul>
 <li>With <a href="https://sites.google.com/view/ben-marshall">Ben Marshall</a>, <a href="https://www.ecu.edu.au/schools/business-and-law/faculty/profiles/senior-lecturer/dr-justin-nguyen">Hung Nguyen</a>, <a href="https://academics.aut.ac.nz/nhut.nguyen">Nhut Nguyen</a>, <a href="https://sites.google.com/site/buhuiqiu/">Buhui Qiu</a> and <a href="https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=413830">Nuttawat Visaltanachoti</a></li>
@@ -238,7 +340,7 @@
 </li>
 </ol>
 <br>
-<ol start="4">
+<ol start="3">
 <li><strong>Climate Regulatory Risks and Executive Compensation: Evidence from U.S. State-level SCAP Finalization</strong>
 <ul>
 <li>With <a href="https://www.ecu.edu.au/schools/business-and-law/faculty/profiles/senior-lecturer/dr-justin-nguyen">Hung Nguyen</a>, <a href="https://sites.google.com/site/buhuiqiu/">Buhui Qiu</a> and <a href="https://sites.google.com/site/bohuizhang/">Bohui Zhang</a></li>
@@ -247,7 +349,7 @@
 </li>
 </ol>
 <br>
-<ol start="5">
+<ol start="4">
 <li><strong>Cap-and-Trade Policy and Energy-related Innovation: Evidence from the U.S. Regional Greenhouse Gas Initiative (RGGI) Agreement</strong>
 <ul>
 <li>With <a href="https://profiles.sydney.edu.au/haekwon.lee">Haekwon Lee</a> and <a href="https://sites.google.com/site/buhuiqiu/">Buhui Qiu</a></li>
@@ -287,6 +389,21 @@
 </ul>
 </div>
             
-            
+            <script async type="text/javascript">
+/* From extension marp-team.marp-vscode */
+(()=>{var I=Object.defineProperty;var K=(f,u,_)=>u in f?I(f,u,{enumerable:!0,configurable:!0,writable:!0,value:_}):f[u]=_;var r=(f,u)=>I(f,"name",{value:u,configurable:!0});var w=(f,u,_)=>K(f,typeof u!="symbol"?u+"":u,_);(()=>{var f={32(S,E,h){S.exports=h(924)},924(S,E){"use strict";var h;h={value:!0};const b={h1:{proto:r(()=>HTMLHeadingElement,"proto"),attrs:{role:"heading","aria-level":"1"},style:"display: block; font-size: 2em; margin-block-start: 0.67em; margin-block-end: 0.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h2:{proto:r(()=>HTMLHeadingElement,"proto"),attrs:{role:"heading","aria-level":"2"},style:"display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h3:{proto:r(()=>HTMLHeadingElement,"proto"),attrs:{role:"heading","aria-level":"3"},style:"display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h4:{proto:r(()=>HTMLHeadingElement,"proto"),attrs:{role:"heading","aria-level":"4"},style:"display: block; margin-block-start: 1.33em; margin-block-end: 1.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h5:{proto:r(()=>HTMLHeadingElement,"proto"),attrs:{role:"heading","aria-level":"5"},style:"display: block; font-size: 0.83em; margin-block-start: 1.67em; margin-block-end: 1.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h6:{proto:r(()=>HTMLHeadingElement,"proto"),attrs:{role:"heading","aria-level":"6"},style:"display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},span:{proto:r(()=>HTMLSpanElement,"proto")},pre:{proto:r(()=>HTMLElement,"proto"),style:"display: block; font-family: monospace; white-space: pre; margin: 1em 0; --marp-auto-scaling-white-space: pre;"}},q="data-marp-auto-scaling-wrapper",C="data-marp-auto-scaling-svg",O="data-marp-auto-scaling-container",j=class j extends HTMLElement{constructor(){super();w(this,"container");w(this,"containerSize");w(this,"containerObserver");w(this,"svg");w(this,"svgComputedStyle");w(this,"svgPreserveAspectRatio","xMinYMid meet");w(this,"wrapper");w(this,"wrapperSize");w(this,"wrapperObserver");const n=r(s=>([t])=>{const{width:i,height:o}=t.contentRect;this[s]={width:i,height:o},this.updateSVGRect()},"e");this.attachShadow({mode:"open"}),this.containerObserver=new ResizeObserver(n("containerSize")),this.wrapperObserver=new ResizeObserver((...s)=>{n("wrapperSize")(...s),this.flushSvgDisplay()})}static get observedAttributes(){return["data-downscale-only"]}connectedCallback(){this.shadowRoot.innerHTML=`
+<style>
+  svg[${C}] { display: block; width: 100%; height: auto; vertical-align: top; }
+  span[${O}] { display: table; white-space: var(--marp-auto-scaling-white-space, nowrap); width: max-content; }
+</style>
+<div ${q}>
+  <svg part="svg" ${C}>
+    <foreignObject><span ${O}><slot></slot></span></foreignObject>
+  </svg>
+</div>
+    `.split(/\n\s*/).join(""),this.wrapper=this.shadowRoot.querySelector(`div[${q}]`)??void 0;const n=this.svg;this.svg=this.wrapper?.querySelector(`svg[${C}]`)??void 0,this.svg!==n&&(this.svgComputedStyle=this.svg?window.getComputedStyle(this.svg):void 0),this.container=this.svg?.querySelector(`span[${O}]`)??void 0,this.observe()}disconnectedCallback(){this.svg=void 0,this.svgComputedStyle=void 0,this.wrapper=void 0,this.container=void 0,this.observe()}attributeChangedCallback(){this.observe()}flushSvgDisplay(){const{svg:n}=this;n&&(n.style.display="inline",requestAnimationFrame(()=>{n.style.display=""}))}observe(){this.containerObserver.disconnect(),this.wrapperObserver.disconnect(),this.wrapper&&this.wrapperObserver.observe(this.wrapper),this.container&&this.containerObserver.observe(this.container),this.svgComputedStyle&&this.observeSVGStyle(this.svgComputedStyle)}observeSVGStyle(n){const s=r(()=>{const t=(()=>{const i=n.getPropertyValue("--preserve-aspect-ratio");return i?i.trim():`x${(({textAlign:o,direction:d})=>{if(o.endsWith("left"))return"Min";if(o.endsWith("right"))return"Max";if(o==="start"||o==="end"){let m=d==="rtl";return o==="end"&&(m=!m),m?"Max":"Min"}return"Mid"})(n)}YMid meet`})();t!==this.svgPreserveAspectRatio&&(this.svgPreserveAspectRatio=t,this.updateSVGRect()),n===this.svgComputedStyle&&requestAnimationFrame(s)},"t");s()}updateSVGRect(){let n=Math.ceil(this.containerSize?.width??0);const s=Math.ceil(this.containerSize?.height??0);this.dataset.downscaleOnly!==void 0&&(n=Math.max(n,this.wrapperSize?.width??0));const t=this.svg?.querySelector(":scope > foreignObject");if(t?.setAttribute("width",`${n}`),t?.setAttribute("height",`${s}`),this.svg&&(this.svg.setAttribute("viewBox",`0 0 ${n} ${s}`),this.svg.setAttribute("preserveAspectRatio",this.svgPreserveAspectRatio),this.svg.style.height=n<=0||s<=0?"0":""),this.container){const i=this.svgPreserveAspectRatio.toLowerCase();this.container.style.marginLeft=i.startsWith("xmid")||i.startsWith("xmax")?"auto":"0",this.container.style.marginRight=i.startsWith("xmi")?"auto":"0"}}};r(j,"s");let k=j;const T=r((c,{attrs:v={},style:n})=>class extends c{constructor(...s){super(...s);for(const[t,i]of Object.entries(v))this.hasAttribute(t)||this.setAttribute(t,i);this._shadow()}static get observedAttributes(){return["data-auto-scaling"]}connectedCallback(){this._update()}attributeChangedCallback(){this._update()}_shadow(){if(!this.shadowRoot)try{this.attachShadow({mode:"open"})}catch(s){if(!(s instanceof Error&&s.name==="NotSupportedError"))throw s}return this.shadowRoot}_update(){const s=this._shadow();if(s){const t=n?`<style>:host { ${n} }</style>`:"";let i="<slot></slot>";const{autoScaling:o}=this.dataset;o!==void 0&&(i=`<marp-auto-scaling exportparts="svg:auto-scaling" ${o==="downscale-only"?"data-downscale-only":""}>${i}</marp-auto-scaling>`),s.innerHTML=t+i}}},"r");let L;const F=Symbol(),z=r(()=>L??(L=!!document.createElement("div",{is:"marp-auto-scaling"}).outerHTML.startsWith("<div is"),L),"l");let A;const a="marpitSVGPolyfill:setZoomFactor,",l=Symbol(),e=Symbol(),p=r(()=>{const c=navigator.vendor==="Apple Computer, Inc.",v=c?[H]:[],n={then:r(s=>(c?(async()=>{if(A===void 0){const t=document.createElement("canvas");t.width=10,t.height=10;const i=t.getContext("2d"),o=new Image(10,10),d=new Promise(m=>{o.addEventListener("load",()=>m())});o.crossOrigin="anonymous",o.src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%201%201%22%3E%3CforeignObject%20width%3D%221%22%20height%3D%221%22%20requiredExtensions%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22width%3A%201px%3B%20height%3A%201px%3B%20background%3A%20red%3B%20position%3A%20relative%22%3E%3C%2Fdiv%3E%3C%2FforeignObject%3E%3C%2Fsvg%3E",await d,i.drawImage(o,0,0),A=i.getImageData(5,5,1,1).data[3]<128}return A})().then(t=>{s?.(t?[H]:[])}):s?.([]),n),"then")};return Object.assign(v,n)},"p");let y,g;function H(c){const v=typeof c=="object"&&c.target||document,n=typeof c=="object"?c.zoom:c;window[e]||(Object.defineProperty(window,e,{configurable:!0,value:!0}),document.body.style.zoom=1.0001,document.body.offsetHeight,document.body.style.zoom=1,window.addEventListener("message",({data:t,origin:i})=>{if(i===window.origin)try{if(t&&typeof t=="string"&&t.startsWith(a)){const[,o]=t.split(","),d=Number.parseFloat(o);Number.isNaN(d)||(g=d)}}catch(o){console.error(o)}}));let s=!1;Array.from(v.querySelectorAll("svg[data-marpit-svg]"),t=>{var i,o,d,m;t.style.transform||(t.style.transform="translateZ(0)");const x=n||g||t.currentScale||1;y!==x&&(y=x,s=x);const W=t.getBoundingClientRect(),{length:Z}=t.children;for(let N=0;N<Z;N+=1){const $=t.children[N];if($.getScreenCTM){const M=$.getScreenCTM();if(M){const U=(o=(i=$.x)===null||i===void 0?void 0:i.baseVal.value)!==null&&o!==void 0?o:0,X=(m=(d=$.y)===null||d===void 0?void 0:d.baseVal.value)!==null&&m!==void 0?m:0,J=$.children.length;for(let P=0;P<J;P+=1){const G=$.children[P];if(G.tagName==="SECTION"){const{style:D}=G;D.transformOrigin||(D.transformOrigin=`${-U}px ${-X}px`),D.transform=`scale(${x}) matrix(${M.a}, ${M.b}, ${M.c}, ${M.d}, ${M.e-W.left}, ${M.f-W.top}) translateZ(0.0001px)`;break}}}}}}),s!==!1&&Array.from(v.querySelectorAll("iframe"),({contentWindow:t})=>{t?.postMessage(`${a}${s}`,window.origin==="null"?"*":window.origin)})}r(H,"v");function B({once:c=!1,target:v=document}={}){const n=(function(s=document){if(s[l])return s[l];let t=!0;const i=r(()=>{t=!1,delete s[l]},"i");Object.defineProperty(s,l,{configurable:!0,value:i});let o=[],d=!1;(async()=>{try{o=await p()}finally{d=!0}})();const m=r(()=>{for(const x of o)x({target:s});d&&o.length===0||t&&window.requestAnimationFrame(m)},"r");return m(),i})(v);return c?(n(),()=>{}):n}r(B,"w"),y=1,g=void 0;const Y=B,R=Symbol(),V=r((c=document)=>{if(typeof window>"u")throw new Error("Marp Core's browser script is valid only in browser context.");if(((t=document)=>{const i=window[F];i||customElements.define("marp-auto-scaling",k);for(const o of Object.keys(b)){const d=`marp-${o}`,m=b[o].proto();z()&&m!==HTMLElement?i||customElements.define(d,T(m,{style:b[o].style}),{extends:o}):(i||customElements.define(d,T(HTMLElement,b[o])),t.querySelectorAll(`${o}[is="${d}"]`).forEach(x=>{x.outerHTML=x.outerHTML.replace(new RegExp(`^<${o}`,"i"),`<${d}`).replace(new RegExp(`</${o}>$`,"i"),`</${d}>`)}))}window[F]=!0})(c),c[R])return c[R];const v=B({target:c}),n=r(()=>{v(),delete c[R]},"n"),s=Object.assign(n,{cleanup:n,update:r(()=>V(c),"update")});return Object.defineProperty(c,R,{configurable:!0,value:s}),s},"f");E.browser=V,h=V,h=Y}},u={};function _(S){var E=u[S];if(E!==void 0)return E.exports;var h=u[S]={exports:{}};return f[S](h,h.exports,_),h.exports}r(_,"__webpack_require__");var Q={};(()=>{"use strict";var S=_(32);const E="marp_vscode_content_section",h="data-marp-vscode-content-start-line",b="data-marp-vscode-content-end-line";function q(a){a.core.ruler.push(E,l=>{if(l.inlineMode)return;let e=null,p=0,y=0;for(const g of l.tokens)g.map&&(p=g.map[0],y=Math.max(y,...g.map)),g.type==="marpit_slide_open"&&(e&&(e.map&&e.attrSet(h,e.map[0]),e.attrSet(b,p-1)),e=g);e&&(e.map&&e.attrSet(h,e.map[0]),e.attrSet(b,y))})}r(q,"marpVSCodeContentSection");const C="marp-vscode.overflowTracker",O=r(a=>typeof a=="object"&&a!=null&&"type"in a&&a.type===C&&"overflowElements"in a&&Array.isArray(a.overflowElements),"isOverflowTrackerEvent"),A=class A{constructor(l){this.postMessage=l,this.delay=150,this.update()}update(){window.setTimeout(()=>this.detectOverflowElements(),this.delay)}cleanup(){}detectOverflowElements(){const l=[];for(const e of document.querySelectorAll(`section[${h}][${b}]`)){const p=e.scrollWidth-e.clientWidth,y=e.scrollHeight-e.clientHeight;if(p<=0&&y<=0)continue;const g=parseInt(e.getAttribute(h)||"",10),H=parseInt(e.getAttribute(b)||"",10);Number.isNaN(g)||Number.isNaN(H)||l.push({startLine:g,endLine:H})}this.postMessage(C,{overflowElements:l})}};r(A,"OverflowTracker");let k=A;function T(){let a;const l=window.cspAlerter?._messaging?.postMessage||window.styleLoadingMonitor?._poster?.postMessage,e=r(()=>{const p=document.getElementById("__marp-vscode");!!a!=!!p?(document.body.classList.toggle("marp-vscode",!!p),p?a={browser:(0,S.browser)(),overflowTracker:l?new k(l):void 0}:(a?.browser.cleanup(),a?.overflowTracker?.cleanup(),a=void 0)):(a?.browser.update(),a?.overflowTracker?.update()),a?(p&&L(p),F()):z()},"updateCallback");window.addEventListener("load",()=>window.setTimeout(e,100)),window.addEventListener("vscode.markdown.updateContent",e),e()}r(T,"preview");const L=r(a=>{a.querySelectorAll("[is]").forEach(l=>{if(l.nodeName.includes("-")||document.createElement(l.nodeName).constructor!==l.constructor)return;const{outerHTML:p}=l;l.outerHTML=p,console.debug("[marp-vscode] Custom element has been upgraded forcibly:",p.slice(0,p.indexOf(">")+1||void 0))})},"forceUpgradeCustomElements"),F=r(()=>{const a=document.querySelectorAll("style:not(#__marp-vscode-style,#_defaultStyles,[data-marp-vscode-body])"),l=document.querySelectorAll('link[rel="stylesheet"][href]:not([href*="marp-vscode"])');a.forEach(e=>{e.closest("#__marp-vscode")||(e.dataset.marpVscodeBody=e.textContent??"",e.textContent="")}),l.forEach(e=>{if(e.closest("#__marp-vscode"))return;const{href:p}=e;e.dataset.marpVscodeHref=p,e.removeAttribute("href")})},"removeStyles"),z=r(()=>{const a=document.querySelectorAll("style[data-marp-vscode-body]"),l=document.querySelectorAll("link[data-marp-vscode-href]");a.forEach(e=>{e.textContent=e.dataset.marpVscodeBody||"",delete e.dataset.marpVscodeBody}),l.forEach(e=>{e.href=e.dataset.marpVscodeHref||"",delete e.dataset.marpVscodeHref})},"restoreStyles");T()})()})();})();
+
+</script>
+
         </body>
         </html>
